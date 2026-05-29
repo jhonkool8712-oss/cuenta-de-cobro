@@ -7,7 +7,7 @@ $pass = '';
 $charset = 'utf8mb4';
 
 // Si despliegas en alwaysdata, reemplaza los valores anteriores con los datos reales
-de conexión que te entrega alwaysdata, por ejemplo:
+// de conexión que te entrega alwaysdata, por ejemplo:
 // $host = 'mysql.hosting-provider.com';
 // $dbname = 'jhonatan1_cuentadecobro';
 // $user = 'jhonatan1';
