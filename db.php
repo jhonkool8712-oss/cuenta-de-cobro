@@ -1,9 +1,17 @@
 <?php
-$host = 'jhonatan1_cuentadecobro';
+// Para vista previa local con MySQL en la misma máquina:
+$host = 'localhost';
 $dbname = 'cuentacobro';
-$user = 'jhonatan1';
-$pass = 'clase123';
+$user = 'root';
+$pass = '';
 $charset = 'utf8mb4';
+
+// Si despliegas en alwaysdata, reemplaza los valores anteriores con los datos reales
+de conexión que te entrega alwaysdata, por ejemplo:
+// $host = 'mysql.hosting-provider.com';
+// $dbname = 'jhonatan1_cuentadecobro';
+// $user = 'jhonatan1';
+// $pass = 'tu_contrasena';
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
 $options = [
