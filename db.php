@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
+$host = 'jhonatan1_cuentadecobro';
 $dbname = 'cuentacobro';
-$user = 'root';
-$pass = '';
+$user = 'jhonatan1';
+$pass = 'clase123';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
